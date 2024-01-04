@@ -1,0 +1,10 @@
+package b_chapter01;
+
+public class B_dataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
