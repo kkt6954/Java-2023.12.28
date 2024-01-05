@@ -25,7 +25,7 @@ import java.util.Scanner;
 // }
 
 
-public class b_Switch {
+public class B_Switch {
 
 	public static void main(String[] args) {
 		// Swtich문은 조건에 따라서 코드 실행 범위를 지정하는 것
