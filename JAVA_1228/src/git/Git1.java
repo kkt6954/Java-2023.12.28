@@ -75,9 +75,8 @@ public class Git1 {
 	
 //		: >> 원격 리포지토리에서 파일 당겨오기
 //		: git pull origin main
-	
-	
 
+	
 	
 	
 }

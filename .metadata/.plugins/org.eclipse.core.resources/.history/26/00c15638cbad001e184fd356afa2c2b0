@@ -1,6 +1,6 @@
-package c_Chapter02;
+package d_Chapter03;
 
-public class E_NestedLoop {
+public class B_Array02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
