@@ -35,6 +35,7 @@ public class B_Array02 {
 				// : 'DOWN' 출력
 				System.out.println("DOWN");
 			}
+			sc.close();
 		}
 	}
 }
