@@ -6,9 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="메서"/>
 		<list key="findhistory">
+			<item value="메소"/>
 		</list>
 		<list key="replacehistory">
+			<item value="메서"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

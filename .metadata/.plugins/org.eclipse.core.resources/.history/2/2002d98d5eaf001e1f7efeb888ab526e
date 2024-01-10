@@ -1,0 +1,28 @@
+package e_Chapter04;
+
+// 클래스
+class Book {
+	// Book 클래스의 필드(속성)
+	String title; // 책 제목
+	String author; // 책 저자
+	
+	// Book 클래스의 생성자 - 객체 생성시 필드 기본값 설정
+	Book(String title, String author) {
+		// this가 해당 클래스임을 자동으로 인식
+		this.title = title;
+		this.author = author;
+	}
+	
+	// Book 클래스의 메서드
+	void displayInfo() {
+		System.out.println("Title" + title + "Author" + author);
+	}
+}
+public class Object04_ex {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

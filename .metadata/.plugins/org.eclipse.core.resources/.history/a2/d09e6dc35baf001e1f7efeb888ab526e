@@ -1,0 +1,13 @@
+package e_Chapter04;
+
+// 클래스 파일명 변경
+// 파일 클릭 후 f2 버튼 클릭 or Refacor에서 Rename
+// : 파일 탐색기에서 임의로 변경하는 경우, 파일 내의 class명이 변경되지 않아 오류
+public class Object03 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

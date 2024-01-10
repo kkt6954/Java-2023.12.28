@@ -1,0 +1,19 @@
+package e_Chapter04;
+
+class Book {
+	String title; // 책 제목
+	String author; // 책 저자
+	
+	// Book 클래스의 메서드
+	void displayInfo() {
+		System.out.println("Title" + title + "Author" + author);
+	}
+}
+public class Object04 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
