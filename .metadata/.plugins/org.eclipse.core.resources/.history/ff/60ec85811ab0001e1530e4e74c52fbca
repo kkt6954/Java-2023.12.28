@@ -1,0 +1,34 @@
+package e_Chapter04;
+
+// 축구 선수 클래스
+// FootballPlayer 클래스 작성
+
+// 클래스 필드
+// : 선수 이름(name), 포지션(position), 팀 이름(team), 골 수(goals)
+
+// 선수 정보를 출력하는 메서드
+// : displayInfo() - 반환 x
+// : name, position, team goals
+
+class FootballPlayer{
+	String name;
+	String position;
+	String team;
+	int goals;
+	
+	void displayInfo() {
+//		자동 줄 바꿈
+//		: window > Editor > Toggle word wrap
+//		: alt + shift + y
+		System.out.println( name + ", " + position + ", " + team + ", " + goals);
+	}
+}
+
+public class Object06_ex {
+
+	public static void main(String[] args) {
+		FootballPlayer player1 = new FootballPlayer;
+		
+	}
+
+}

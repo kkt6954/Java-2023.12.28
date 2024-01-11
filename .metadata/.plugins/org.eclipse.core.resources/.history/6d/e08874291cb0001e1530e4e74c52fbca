@@ -1,0 +1,13 @@
+package f_Chapter05;
+
+
+// 객체 지향 프로그램의 '변수'
+
+public class Object01 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

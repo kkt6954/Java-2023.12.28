@@ -1,0 +1,15 @@
+package f_Chapter05;
+
+
+// 객체 지향 프로그램의 '변수'
+
+// 객체의 속성을 변수로 표현
+// : 객체의 상태를 저장
+public class Object01 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
