@@ -6,7 +6,7 @@ package g_Chapter06;
 
 // : 생성된 선수의 총 수(playerCount) - 모든 인스턴스에서 공유
 
-// 생성자 - this.
+// 생성자
 // : 생성시 선수의 이름, 타율, 홈런 수를 받아서 인스턴수 변수 초기환
 // : 생성시 정적 변수를 후위 증가(변수명++)
 
@@ -18,8 +18,6 @@ class BaseballPlayer{
 	String name;
 	double battingAverage;
 	int HomeRuns;
-	
-	int playerCount;
 }
 public class MethodPractice {
 	public static void main(String[] args) {

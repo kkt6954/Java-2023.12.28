@@ -6,11 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="메서"/>
+		<item key="selection" value="매개"/>
 		<list key="findhistory">
+			<item value="매개"/>
+			<item value="매게"/>
+			<item value="메게"/>
+			<item value="메개"/>
 			<item value="메소"/>
 		</list>
 		<list key="replacehistory">
+			<item value="메개"/>
 			<item value="메서"/>
 		</list>
 	</section>
