@@ -1,0 +1,16 @@
+package g_Chapter06;
+
+
+// 인스턴스 변수, 정적(클래스) 변수
+
+// 예시) 카드 클래스
+
+// 카드 속성) 카드 너비, 높이, 숫자, 무늬
+public class ClassPractice {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
