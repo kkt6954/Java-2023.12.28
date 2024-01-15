@@ -1,0 +1,12 @@
+package g_Chapter06;
+
+// 음식점 클래스
+// : 다양한 방법으로 주문을 받는 예시
+public class Overloading02 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package h_Chapter07;
+
+// 변수의 초기화
+// : 
+public class Reset01 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
