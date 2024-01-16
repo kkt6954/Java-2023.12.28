@@ -1,0 +1,13 @@
+package h_Chapter07;
+
+//! 상속
+// : 한 클래스의 속성과 메서드를 다른 클래스가 물려 받는 기능
+
+public class Inheritance01 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

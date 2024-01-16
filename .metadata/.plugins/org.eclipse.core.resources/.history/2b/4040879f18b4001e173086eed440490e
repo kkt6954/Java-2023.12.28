@@ -1,0 +1,14 @@
+package parentsPackage;
+
+public class ParentsClass {
+	public String protectedField;
+	
+	public ParentClass() {
+		this.protectedField = "Public Field";
+	}
+
+	public protectedMethod() {
+		System.out.println("This is a public method");
+	}
+
+}

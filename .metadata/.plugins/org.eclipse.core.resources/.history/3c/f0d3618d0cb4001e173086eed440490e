@@ -1,0 +1,11 @@
+package h_Chapter07;
+
+// 상속에서의 생성자
+// : 상속받은 클래스에서 생성자 호출 순서는 부모 > 자식 순서로 진행
+public class Inheritance02 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

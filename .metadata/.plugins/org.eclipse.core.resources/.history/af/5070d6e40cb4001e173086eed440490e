@@ -1,0 +1,25 @@
+package h_Chapter07;
+
+// 상속에서의 생성자
+// : 상속받은 클래스에서 생성자 호출 순서는 부모 > 자식 순서로 진행
+
+// 자식 클래스의 객체를 생성할때 자식 클래스는 자식 생성자를 통해 자식 객체 생성
+
+class Animal {
+	
+}
+
+class Cat extends Animal {
+	// 자식 클래스의 기본 생성자는 사용자가 정의하지 않더라도
+	// , super() 부모클래스 생성자 호출 키워드가 정의되어 있음
+	Cat() {
+		
+	}
+}
+public class Inheritance02 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
