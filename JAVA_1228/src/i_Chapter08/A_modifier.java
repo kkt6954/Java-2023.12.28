@@ -13,7 +13,7 @@ import parentsPackage.ParentsClass;
 
 // 2. 종류
 // : private, default, protected, public
-// : 클래스나 멤버 변수, 메서드, 생성자에 접근 제어자가 저장되어 있지 않은 경우 default(기본값)으로 지정
+// : 클래스(멤버 변수), 메서드, 생성자에 접근 제어자가 저장되어 있지 않은 경우 default(기본값)으로 지정
 
 // 3. 범위
 // public > protected > (default) > private

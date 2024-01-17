@@ -27,10 +27,9 @@ public class A_Java_Hello {
 //		컴퓨터에게 전달할 명령(실행문)을 작성
 //		- 자바의 출력
 		System.out.println("Hello Java!!");
-		System.out.println("Hello Coding!!");
+		System.out.println("Hello Coding!!");		
 
 //		자바 파일 실행 전 반드시 저장 : ctrl + s
-
 //		이클립스 단축키
 //		1. 자바 실행 : ctrl + f11
 //		2. 행 이동 : alt + 방향키(위, 아래)
@@ -40,6 +39,10 @@ public class A_Java_Hello {
 //		6. 줄 복사 단축키 : ctrl + alt + 방향키(위, 아래)
 //		7. 들여쓰기 단축키: tab
 //		8. 반대로 들여쓰기 단축키: shift + tab
+		
+//		-,_ 기호의 차이점
+//		choco-cake > 따로 따로 인식(cake 더블클릭시 cake만)
+//		choco_cake > 하나의 단어로 인식(cake 더블클릭시 전체)
 	}
 
 }

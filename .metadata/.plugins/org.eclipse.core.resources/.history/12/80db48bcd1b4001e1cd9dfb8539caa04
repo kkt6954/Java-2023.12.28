@@ -1,0 +1,11 @@
+package parentsPackage;
+
+// import 패키지명.클래스명;(같은 패키지의 다른 클래스도 가능)
+import i_Chapter08.AccessExample;
+
+
+public class OtherClass {
+	public static void main(String[] args) {
+		AccessExample example = new AccessExample(); // public
+	}
+}

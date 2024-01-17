@@ -1,0 +1,11 @@
+package i_Chapter08;
+
+// 접근 범위 : 제한 X
+public class AccessExample {
+	public int publicVar = 1;
+	protected int protectedVar = 2;
+	int defaultVar = 3; // default 접근 제어자
+	private int privateVar = 4;
+	
+
+}
