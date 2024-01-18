@@ -37,7 +37,7 @@ class Dog extends Animal {
 	}
 }
 
-public class a_Class_Type {
+public class A_Class_Type {
 
 	public static void main(String[] args) {
 		// 1. 클래스의 자동 타입 변환

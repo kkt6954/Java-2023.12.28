@@ -1,0 +1,22 @@
+package k_Chpater10;
+
+interface Flyable {
+	int MAX_SPEED = 100; // public static final 생략
+	void fly(); // public abstract 생략
+	
+	// 디폴트 메서드
+	default void land() { System.out.println("Landing"); }
+	// 정적 메서드
+	static int getWingCount() { return 2; }
+}
+class Bird implements Flyable {
+	public void fly() { System.out.println("FLY"); }
+}
+
+
+public class C_Interface02 {
+	public static void main(String[] args) {
+		
+	}
+
+}

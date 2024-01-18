@@ -15,11 +15,11 @@ package g_Chapter06;
 // : 매게변수로 newBattingAverage, newHomeRuns를 입력
 // : 타율 업데이트, 홈런 수 업데이트 (기존의 인스턴스 변수에 재할당)
 class BaseballPlayer {
-	private String name;
-	private double battingAverage;
-	private int homeRuns;
+	String name;
+	double battingAverage;
+	int homeRuns;
 	
-	private static int playerCount = 0;
+	static int playerCount = 0;
 	
 	public BaseballPlayer(String name, double battingAverage, int homeRuns) {
 		this.name = name;
@@ -40,7 +40,7 @@ public class MethodPractice {
 		BaseballPlayer player2 = new BaseballPlayer("Ryu", 0.275, 15);
 		BaseballPlayer player3 = new BaseballPlayer("Kim", 0.375, 19);
 
-//		System.out.println("총 생성된 선수의 수: " + playerCount);
+		System.out.println("총 생성된 선수의 수: " + BaseballPlayer.playerCount);
 	}
 }
 

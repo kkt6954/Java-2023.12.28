@@ -12,9 +12,7 @@ package j_Chapter09;
 // : instanceof 연산자를 사용하여 매개변수가 Cat과 Dog 중 어느 인스턴스인지 확인
 // : Cat > 'Cat'출력 / Dog > 'Dog' 출력 / 둘 다 X > 'Unknown'
 
-class Animals {
-	void sound () {System.out.println("The animal makes a sound");}
-}
+class Animals {void sound () {System.out.println("The animal makes a sound");}}
 class Cat extends Animals {
 	@Override
 	void sound () {System.out.println("meow");}
@@ -22,6 +20,13 @@ class Cat extends Animals {
 class Dogs extends Animals {
 	@Override
 	void sound () {System.out.println("bark");}
+}
+class AnimalChecker {
+	void checkAnimalType(Animals animal) {
+		if(animal instanceof Cat) {	System.out.println("cat"); } 
+		else if (animal instanceof Dogs) { System.out.println("dog"); } 
+		else { System.out.println("Unknown"); }
+	}
 }
 
 
@@ -31,18 +36,16 @@ public class Z_Practice01 {
 	public static void main(String[] args) {
 //		Animal, Cat, Dog 클래스의 객체를 Animal 타입으로 저장
 //		생성된 각 객체를 checkAnimalType 메서드를 사용하여 확인
-		Animals animal = new Animals();
-		Animals cat = new Animals();
-		Animals dog = new Animals();
-		if (cat instanceof Animals) {
-			System.out.println("Cat");
-		} if (dog instanceof Animals) {
-			System.out.println("Dog");
-		} if (animal instanceof Cat) {			
-		} else {
-			System.out.println("Uknown");
-		}
+		AnimalChecker animalChecker = new AnimalChecker();
 		
+		Animals myPet1 = new Cat();
+		animalChecker.checkAnimalType(myPet1);
+		
+		Animals myPet2 = new Dogs();
+		animalChecker.checkAnimalType(myPet2);
+		
+		Animals myPet3 = new Animals();
+		animalChecker.checkAnimalType(myPet3);
 	}
 
 }
