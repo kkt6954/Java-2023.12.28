@@ -1,0 +1,32 @@
+package m_Chapter12;
+
+public class B_Exception {
+
+	public static void main(String[] args) {
+		
+		//! RuntimeException
+		// : 프로그래머의 실수에 의해 발생하는 예외들을 포함
+		// : 컴파일 시점에서 체크되지 않음 (unchecked exception이라고도 부름)
+		// NullPointerException, IndexOutOfBoundsException 등
+		
+		// 1. NullPointerException
+		// : 참조변수가 null값을 가르킬 때, 해당 변수를 사용할 경우 발생
+		try {
+			String text = null;
+			int length = text.length();
+		} catch (NullPointerException e) {
+			System.out.println("Null 참조 에러");
+		}
+		
+		// 2. ArrayIndexOutOfBoundsException
+		// : 배열의 범위를 초과하는 인덱스에 접근할때
+		int[] array = new int[10]; // 배열의 길이가 10 (인덱스 0 ~ 9)
+		
+		try {
+			array[10] = 5; //ArrayIndexOutOfBoundsException
+		} catch(ArrayIndexOutOfBoundsException e) {
+			
+		}
+	}
+
+}
