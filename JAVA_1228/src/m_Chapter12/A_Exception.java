@@ -1,9 +1,33 @@
 package m_Chapter12;
 
-public class A_Exception {
+//! 자바 예외 처리
 
-	public static void main(String[] args)  {
-//		System.out.println();
+// 예외(Exception)
+// : 프로그램 실행 중에 발생할 수 있는 예기치 못한 문제나 조건
+
+// 예외 처리
+// : 예외가 발생할 경우 프로그램이 중단되지 않고 대응하여 
+//   , 정상적인 프로그램 흐름을 유지하는 프로그래밍 기법
+
+// 자바 예외 클래스
+// Throwable: 모든 예외와 오류의 최상위 클래스
+// - 모든 예외 클래스는 해당 클래스를 상속받음
+// - 예외와 관련된 메시지, 처리방법에 대한 예시에 대한 정보를 포함
+
+//	>> Exception: 프로그램이 처리할 수 있는 예외들의 클래스
+		// - 애플리케이션 레벨에서 발생하는 오류
+//       >> RuntimeException: 프로그래머의 실수로 발생하는 예외(Unchecked)
+//							 런타임 시점에서 발생, 컴파일러가 체크 X
+//       >> Checked Exception: 컴파일 시점에 체크되는 예외
+
+//  >> Error: 시스템 레벨에서 발생하는 예외, 개발자가 처리할 수 없음
+
+//! 자바의 예외 처리 방법
+// try-catch 블럭, throws 키워드, 사용자 정의 예외
+
+public class A_Exception {
+	public static void main(String[] args) throws Exception {
+//		System.out.println("안녕") - Error
 		
 		// 1. 체크 예외
 		// : 개발자가 예외를 처리해야만 하는 예외
