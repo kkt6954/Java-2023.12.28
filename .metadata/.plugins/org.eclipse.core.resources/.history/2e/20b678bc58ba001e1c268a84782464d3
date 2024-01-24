@@ -1,0 +1,13 @@
+package o_Chapter14;
+
+//! MVC
+// : 사용자 인터페이스를 설계하는 소프트웨어 디자인 패턴 중 하나
+// :
+
+public class A_MVC {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package n_Chapter13;
+
+//! Map 인터페이스
+// : 키(key)와 값(value)의 쌍으로 요소를 저장하는 데이터 구조
+// : 키(key)는 고유한 데이터, 하나의 값을 가르킴
+// : 값(value)
+
+// 1. 주요 특징
+// : 키의 유일성 : 모든 키는 고유해야 함 / 각 키는 하나의 값에만 매핑됨
+
+public class F_Map {
+	public static void main(String[] args) {
+
+
+	}
+
+}
